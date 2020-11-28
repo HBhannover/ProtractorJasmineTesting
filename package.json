@@ -1,0 +1,26 @@
+{
+  "name": "projectabcnews",
+  "version": "1.0.0",
+  "description": "this is testproject for webs",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor JSFiles/config.js"
+  },
+  "author": "Hoang Bach Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "2.5.41",
+    "@types/jasminewd2": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "protractor": "~7.0.0",
+    "typescript": "~2.8.4",
+    "rxjs": "6.0.0"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.0",
+    "ts-node": "^3.0.2",
+    "rxjs": "6.0.0"
+  }
+}
