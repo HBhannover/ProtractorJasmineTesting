@@ -14,7 +14,7 @@ describe("Start the Webapp ABC News", function () {
 
     //resolve promise with Jasmine:
     expect(browser.getTitle()).toEqual(Constans.webTitle);
-
+  });
     it ( "Sau tao test",function(){
       browser.get("https://www.google.com/");
       browser.sleep(5000).then(function(){
@@ -22,9 +22,6 @@ describe("Start the Webapp ABC News", function () {
       })
       
     })
-
-  });
-
 
 
 })
