@@ -24,7 +24,7 @@ describe("Test with the function action() of protractor", function() {
         element(by.partialButtonText("Hotels suchen")).click();
             browser.sleep(2000);
 
-            //How many items wars found:
+            //How many items was found:
             element.all(by.xpath("//ul[@class='HotelOffersTable__hotelsList--2-Xe8']//li")).count().then(function(text){
              console.log("Number of found itemp: "+text);
             }); 
